@@ -15,6 +15,20 @@ p {
     font-size: 14px;
 }
 
+.section-title {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 /* ==================== Header ======================= */
 
 .header {
@@ -67,9 +81,9 @@ p {
     font-size: 19px;
     text-transform: uppercase;
     border-radius: 3px;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .btn-download:hover {
@@ -87,9 +101,9 @@ p {
     font-size: 19px;
     font-weight: 500;
     background: transparent;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .btn-tour:hover {
@@ -111,7 +125,14 @@ p {
 
 /* ==================== About Us ====================== */
 
+.choose-us-wrapper {
+    padding-top: 50px;
+}
+
+.about-iphone img {
+    margin-top: 8px;
+}
 
 
-/* ==================== Footer ========================= */
+/* ==================== Features ========================= */
 
