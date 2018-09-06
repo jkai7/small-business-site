@@ -1,4 +1,4 @@
-/* ================= General CSS =========================================== */
+/* ================= General CSS ============================================= */
 
 * {
     margin: 0 auto;
@@ -50,7 +50,7 @@ p {
 }
 
 
-/* ==================== Header ============================================== */
+/* ==================== Header =============================================== */
 
 .header {
     background-image: url("../images/header-bg.jpg");
@@ -144,7 +144,7 @@ p {
 
 
 
-/* ==================== About Us ============================================ */
+/* ==================== About Us ============================================= */
 
 .choose-us-wrapper {
     padding-top: 50px;
@@ -217,7 +217,7 @@ p {
 }
 
 
-/* ==================== Testimonials ======================================== */
+/* ==================== Testimonials ========================================= */
 
 
 .testimonial {
@@ -276,4 +276,157 @@ p {
     padding-top: 50px;
 }
 
-/* ======================== Features ======================================= */
+/* ======================== Features ========================================= */
+
+.features-inner-wrapper {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.left-feature-item {
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.left-feature-item-icon {
+    position: absolute;
+    right: 0;
+    top: -8px; 
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center; 
+}
+
+.left-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+}
+
+.left-feature-item p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.feature-iphone img {
+    width: 100;
+}
+
+.right-feature-item {
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 65px;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.right-feature-item-icon {
+    position: absolute;
+    left: 0;
+    top: -8px; 
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center; 
+}
+
+.right-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+}
+
+.right-feature-item p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* ================== Purchase Now =========================================== */
+
+.purchase-now {
+    background-color: #252D32;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.purchase-now p {
+    color: #dfdfdf;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:focus,
+.btn-purchase-now:visited {
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.btn-purchase-now:hover {
+    background-color: #1274b1;
+    border-color: #316b90;
+}
+
+/* ================== Counter ================================================ */
+
+.counter {
+    background-image: url("../images/counter-bg-alt.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.counter-overlay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(31,31,31,0.75);
+}
+
+.counter-item i {
+    color: #129CF3;
+    font-size: 60px;
+}
+
+.counter-item h2 {
+    color: #d7dadb;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.counter-item p {
+    color: #d7dadb;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
