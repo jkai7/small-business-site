@@ -439,7 +439,7 @@ p {
 
 .available-on {
     background-color: #1a1a1a;
-    margin-top: -8px;
+    margin-top: -3px;
     position: relative;
 }
 
@@ -510,11 +510,13 @@ p {
 .available-on-item:hover div.available-on-inner {
     opacity: 1;
     color: #129cf3;
-    transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
  }
+
+ /* ================== Contact Us ============================================ */
 
 
 
