@@ -599,7 +599,7 @@ p {
     font-size: 20px;
 }
 
-.social-icons ul li a:hover {
+.social-icons ul li .twitter-color:hover {
     background-color: #129CF3;
     border: 1px solid #129CF3;
     color: #fff;
@@ -608,3 +608,25 @@ p {
     -o-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
+
+.social-icons ul li .facebook-color:hover {
+    background-color: #314C9C;
+    border: 1px solid #314C9C;
+    color: #fff;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.social-icons ul li .youtube-color:hover {
+    background-color: #EB3323;
+    border: 1px solid #EB3323;
+    color: #fff;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+ /* ================== Footer ============================================ */
+
