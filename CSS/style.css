@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Raleway', 'Source Sans Pro', sans-serif; 
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     overflow-x: hidden;
 }
 
@@ -658,7 +658,7 @@ p {
 
 .scroll-top a {
     background-color: #129CF3;
-    padding:25px 25px;
+    padding:20px 20px;
     border-radius: 40px;
     color: #d8d8d8;
 }
