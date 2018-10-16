@@ -49,6 +49,52 @@ p {
     margin-top: 45px;
 }
 
+/* ==================== NavBar =============================================== */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: #444;
+    z-index: 110;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #b5b5b5;
+    font-family: "Raleway", san-serif;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #129CF3;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #b5b5b5;
+}
+
+.nav-brand {
+    padding: 9px 15px; 
+}
+
+.nav-brand img {
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #129CF3;
+}
 
 /* ==================== Header =============================================== */
 
@@ -140,9 +186,6 @@ p {
 .header-iphone img {
     width: 100%;
 }
-
-
-
 
 /* ==================== About Us ============================================= */
 
